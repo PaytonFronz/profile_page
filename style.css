@@ -7,6 +7,7 @@
 #all-content{
     display: flex;
     align-content: flex-start;
+    background-color: rgb(190, 236, 250);
 }
 /* start left side */
 #left-side{
@@ -21,6 +22,7 @@
     padding-right: 25%;
     background-color: rgb(40, 53, 58);
     border: 5px solid rgb(40, 53, 58);
+    border-style: outset;
     display: flex;
     align-content: flex-start;
     justify-content: space-evenly;
@@ -53,6 +55,9 @@ a:hover{
     width: 105px;
     border: 2px solid black;
     border-radius: 10%;
+}
+.btn:hover{
+    opacity: 50%;
 }
 /* navbar end */
 /* main profile card start */
@@ -88,6 +93,9 @@ a:hover{
     left: 40px;
     text-decoration-line: underline;
 }
+#name:hover{
+    opacity: 50%;
+}
 .map-marker {
     width: 17px;
     position: absolute;
@@ -100,6 +108,9 @@ a:hover{
     top: 250px;
     left: 70px;
     text-decoration-line: underline;
+}
+.location:hover{
+    opacity: 50%;
 }
 .skills {
     font-weight: bolder;
@@ -118,6 +129,9 @@ a:hover{
     width: 25px;
     bottom: 15px;
     left: 40px;
+}
+.gear_image:hover{
+    opacity: 50%;
 }
 .editprof {
     position: absolute;
@@ -203,6 +217,9 @@ h3{
    right: 20px;
    top: 5px;
 }
+.notifbell:hover{
+    opacity: 50%;
+}
 .toddspic{
     width: 65px;
     border-radius: 50%;
@@ -228,6 +245,9 @@ h3{
     font-weight: bolder;
     text-decoration-line: underline;
 }
+.toddname:hover{
+    opacity: 50%;
+}
 .philname{
     position: absolute;
     left: 100px;
@@ -237,11 +257,17 @@ h3{
     font-weight: bolder;
     text-decoration-line: underline;
 }
+.philname:hover{
+    opacity: 50%;
+}
 .accept1{
     width: 45px;
     position: absolute;
     left: 200px;
     top: 165px;
+}
+.accept1:hover{
+    opacity: 50%;
 }
 .deny1{
     width: 45px;
@@ -249,17 +275,26 @@ h3{
     left: 260px;
     top: 165px;
 }
+.deny1:hover{
+    opacity: 50%;
+}
 .accept2{
     width: 45px;
     position: absolute;
     left: 200px;
     top: 70px;
 }
+.accept2:hover{
+    opacity: 50%;
+}
 .deny2{
     width: 45px;
     position: absolute;
     left: 260px;
     top: 70px;
+}
+.deny2:hover{
+    opacity: 50%;
 }
 /* end of RQ tab */
 /* start of your connections */
