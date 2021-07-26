@@ -9,10 +9,6 @@
     align-content: flex-start;
     background-color: rgb(190, 236, 250);
 }
-/* start left side */
-#left-side{
-    
-}
 /* navbar start */
 #navbar *{
     color: white;
@@ -60,6 +56,7 @@ a:hover{
     opacity: 50%;
 }
 /* navbar end */
+/* start left side */
 /* main profile card start */
 .card{
     margin: 30px auto;
@@ -182,9 +179,6 @@ h3{
 /* end of EDtab */
 /* end of left side */
 /* start right side */
-#right-side{
-    
-}
 /* start of friendRQs tab */
 .RQtab{
     margin: 30px auto;
