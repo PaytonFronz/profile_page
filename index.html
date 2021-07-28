@@ -34,7 +34,7 @@
                     <p class="skills">Programmer | Engineer | Problem Solver</p>
                     <p class="bio">Master of shadows and the Internet!</p>
                     <img src="./icons/gear.png" class="gear_image" alt="logo of a gear">
-                    <a class="editprof" href="edit">edit profile</a>
+                    <a class="editprof" href="edit" onclick="changeName(this)">edit profile</a>
                 </div>
             </div>
             <div class="EDtab">
@@ -68,10 +68,10 @@
                         <h3 class="philname">Phil K</h3>
                     </div>
                     <div class="acceptdeny">
-                        <img src="./icons/accept-circle.png" class="accept1" alt="accept">
-                        <img src="./icons/close-circle.png" class="deny1" alt="deny">
-                        <img src="./icons/accept-circle.png" class="accept2" alt="accept">
-                        <img src="./icons/close-circle.png" class="deny2" alt="deny">
+                        <img onclick="hide1(this)"src="./icons/accept-circle.png" class="accept1" alt="accept">
+                        <img onclick="hide1(this)"src="./icons/close-circle.png" class="deny1" alt="deny">
+                        <img onclick="hide2(this)"src="./icons/accept-circle.png" class="accept2" alt="accept">
+                        <img onclick="hide2(this)"src="./icons/close-circle.png" class="deny2" alt="deny">
                     </div>
                 </div>
             </div>
@@ -91,6 +91,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
