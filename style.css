@@ -9,6 +9,10 @@
     align-content: flex-start;
     background-color: rgb(190, 236, 250);
 }
+/* start left side */
+#left-side{
+    
+}
 /* navbar start */
 #navbar *{
     color: white;
@@ -56,7 +60,6 @@ a:hover{
     opacity: 50%;
 }
 /* navbar end */
-/* start left side */
 /* main profile card start */
 .card{
     margin: 30px auto;
@@ -179,6 +182,9 @@ h3{
 /* end of EDtab */
 /* end of left side */
 /* start right side */
+#right-side{
+    
+}
 /* start of friendRQs tab */
 .RQtab{
     margin: 30px auto;
@@ -309,6 +315,9 @@ h3{
     height: 50px;
     position: absolute;
 }
+.connectionRQs{
+    background-color: ;
+}
 #list_of_connections{
     color: white;
     margin-left: 18px;
@@ -339,3 +348,28 @@ h3{
 }
 /* end of right side */
 /* end of page */
+/* js */
+.accept2.hide{
+    display: none;
+}
+.deny2.hide{
+    display: none;
+}
+.philspic.hide{
+    display: none;
+}
+.philname.hide{
+    display: none;
+}
+.accept1.hide{
+    display: none;
+}
+.deny1.hide{
+    display: none;
+}
+.toddspic.hide{
+    display: none;
+}
+.toddname.hide{
+    display: none;
+}
